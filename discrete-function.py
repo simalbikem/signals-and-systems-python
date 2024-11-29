@@ -2,11 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define the n values and corresponding x[n] values
-n_values = np.array([4, -3, -1, 0, 2])  # The specific n values
-x_values = np.array([-1, 1, 1, 1, 1])   # The corresponding x[n] values
+n_values = np.array([-6, -4, 0, 2, 4])  
+x_values = np.array([1, 1, 1, 1, -1])   
 
-# Define the n_range as per your request (4, 3, 2, 1, 0, -1, -2)
-n_range = np.array([5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -5])
+n_range = np.array([5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -5, -6, -7])
 
 # Initialize x[n] as 0 for all n
 x_n = np.zeros(n_range.shape)
