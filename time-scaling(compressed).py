@@ -30,8 +30,6 @@ for n, y in zip(n_values_2, y_values_2):
 # Plot both signals on the same graph
 plt.stem(n_range, y_n_1, basefmt=" ", linefmt='r-', markerfmt='ro', label="Amplitude-Scaling(by A=2)")
 plt.stem(n_range, y_n_2, basefmt=" ", linefmt='g-', markerfmt='go', label="Compression(by a factor k=2)")
-
-# Add labels and title
 plt.xlabel('n')
 plt.ylabel('y[n]')
 plt.title('Time-Scaling (Compression) After Amplitude-Scaling')
