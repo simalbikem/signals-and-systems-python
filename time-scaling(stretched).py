@@ -29,11 +29,11 @@ for n, y in zip(n_values_2, y_values_2):
         y_n_2[idx[0]] = y
 
 # Plot both signals on the same graph
-plt.stem(n_range, y_n_1, basefmt=" ", linefmt='r-', markerfmt='ro', label="Amplitude-Scaling (by A=2)")
-plt.stem(n_range, y_n_2, basefmt=" ", linefmt='purple', markerfmt='^', label="Stretching (by factor k=2)")
+plt.stem(n_range, y_n_1, basefmt=" ", linefmt='r-', markerfmt='ro', label="Genlik-Ölçeklendirme (A=2)")
+plt.stem(n_range, y_n_2, basefmt=" ", linefmt='purple', markerfmt='^', label="Zamanda-Germe (k=2)")
 plt.xlabel('n')
 plt.ylabel('y[n]')
-plt.title('Time-Scaling (Stretching) After Amplitude-Scaling')
+plt.title('Zaman-Ölçeklendirme (Germe) Genlik-Ölçeklendirmenin Ardından')
 plt.grid(True)
 plt.legend()
 plt.show()

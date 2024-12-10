@@ -20,6 +20,6 @@ for n, x in zip(n_values, x_values):
 plt.stem(n_range, x_n, basefmt=" ")  # Removed 'use_line_collection'
 plt.xlabel('n')
 plt.ylabel('x[n]')
-plt.title('Discrete-Time Signal x[n]')
+plt.title('Ayrık-Zaman Sinyali x[n]')
 plt.grid(True)
 plt.show()

@@ -21,11 +21,11 @@ A = 2
 y_values = np.array([A * val for val in x_values])  # Scale the original x_values by A
 
 # Plot the original and scaled signals
-plt.stem(n_range, x_n, basefmt=" ", linefmt="b-", markerfmt="bo", label="Original x[n]")
-plt.stem(n_values, y_values, basefmt=" ", linefmt="r-", markerfmt="ro", label=f"Amplitude-Scaled y[n] (A={A})")
+plt.stem(n_range, x_n, basefmt=" ", linefmt="b-", markerfmt="bo", label="Orijinal x[n]")
+plt.stem(n_values, y_values, basefmt=" ", linefmt="r-", markerfmt="ro", label=f"Genlik-Ölçeklendirme y[n] (A={A})")
 plt.xlabel('n')
 plt.ylabel('y[n]')
-plt.title(f'Amplitude-Scaled Discrete-Time Signal')
+plt.title(f'Genlik-Ölçeklendirilmiş Ayrık-Zaman Sinyali')
 plt.grid(True)
 plt.legend()
 plt.show()
